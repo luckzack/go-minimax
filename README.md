@@ -2,7 +2,15 @@
 [![Go Reference](https://pkg.go.dev/badge/github.com/luckpunk/go-minimax.svg)](https://pkg.go.dev/github.com/luckpunk/go-minimax)
 [![Go Report Card](https://goreportcard.com/badge/github.com/luckpunk/go-minimax)](https://goreportcard.com/report/github.com/luckpunk/go-minimax)
 
-**中文** | [English](README_en.md) 
+<p align="center">
+  <a>
+    <img alt="Fiber" height="125" src="https://filecdn.minimax.chat/public/Group.png">
+  </a>
+  <br>
+  <br>
+  <b>中文</b> | <a href="./README_en.md">English</a>
+  
+</p>
 
 🚀 [MiniMax](https://api.minimax.chat) API SDK for Go.
 
