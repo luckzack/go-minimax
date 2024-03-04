@@ -12,13 +12,13 @@ import (
 func TestTextToSpeech(t *testing.T) {
 	client := minimax.NewClient(os.Getenv("MINIMAX_API_TOKEN"), os.Getenv("MINIMAX_GROUP_ID"))
 	resp, err := client.CreateTextToSpeech(context.Background(), &minimax.CreateT2ARequest{
-		VoiceId: "female-yujie",
+		VoiceID: minimax.VoiceFemaleYuJie,
 		Text:    "hello",
 		Path:    "./",
 		Name:    "hello.mp3",
 		TimberWeights: []minimax.TimberWeight{
 			{
-				VoiceId: "female-yujie",
+				VoiceID: minimax.VoiceFemaleYuJie,
 				Weight:  1,
 			},
 		},
@@ -34,7 +34,7 @@ func TestTextToSpeechPro(t *testing.T) {
 	client := minimax.NewClient(os.Getenv("MINIMAX_API_TOKEN"), os.Getenv("MINIMAX_GROUP_ID"))
 	resp, err := client.CreateTextToSpeechPro(context.Background(), &minimax.CreateT2ARequest{
 		Text:    "hello",
-		VoiceId: "female-yujie",
+		VoiceID: minimax.VoiceFemaleYuJie,
 	})
 	if err != nil {
 		t.Log(err.Error())

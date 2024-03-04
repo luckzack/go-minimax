@@ -13,7 +13,7 @@ type CreateT2ARequest struct {
 	Model           string         `json:"model"`
 	Text            string         `json:"text"`
 	TimberWeights   []TimberWeight `json:"timber_weights,omitempty"`
-	VoiceId         string         `json:"voice_id,omitempty"`
+	VoiceID         string         `json:"voice_id,omitempty"`
 	Speed           float32        `json:"speed,omitempty"`
 	Vol             float32        `json:"vol,omitempty"`
 	Pitch           int            `json:"pitch,omitempty"`

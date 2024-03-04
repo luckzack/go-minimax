@@ -17,27 +17,6 @@ var (
 	speechPro     = "/t2a_pro"
 )
 
-const (
-	Abab5       = "abab5-chat"
-	Abab5Dot5   = "abab5.5-chat"
-	Abab5Dot5s  = "abab5.5s-chat"
-	Abab6       = "abab6-chat"
-	Embo01      = "embo-01"
-	Speech01    = "speech-01"
-	Speech01Pro = "speech-01-pro" // alias speech-01=speech-01-pro
-
-	ModelBot            = "MM智能助理"
-	ChatMessageRoleUser = "USER"
-	ChatMessageRoleBot  = "BOT"
-	EmbeddingsDbType    = "db"
-	EmbeddingsQueryType = "query"
-
-	ToolCodeInterpreter = "code_interpreter"
-	ToolRetrieval       = "retrieval"
-	ToolFunction        = "function"
-	ToolWebSearch       = "web_search"
-)
-
 // interface -> model:status
 var supportModels = map[string]map[string]bool{
 	completion: {
@@ -218,7 +197,7 @@ type Parameters struct {
 }
 
 type TimberWeight struct {
-	VoiceId string `json:"voice_id"`
+	VoiceID string `json:"voice_id"`
 	Weight  int    `json:"weight"`
 }
 

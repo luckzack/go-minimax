@@ -19,8 +19,8 @@ type Client struct {
 	queryBuilder    pkg.QueryBuilder
 }
 
-func NewClient(apiToken, groupId string) *Client {
-	return NewClientWithConfig(DefaultConfig(apiToken, groupId))
+func NewClient(apiToken, groupID string) *Client {
+	return NewClientWithConfig(DefaultConfig(apiToken, groupID))
 }
 
 func NewClientWithConfig(config *Config) *Client {
@@ -42,7 +42,8 @@ func (c *Client) newRequest(ctx context.Context, url, method string, opts ...opt
 	for _, opt := range opts {
 		opt(args)
 	}
-	if method == http.MethodPost {
+
+	if method == http.MethodPost && args.header.Get("Content-Type") == "" {
 		withContentType("application/json")(args)
 	}
 
@@ -60,11 +61,11 @@ func (c *Client) setCommonHeader(req *http.Request) {
 }
 
 func (c *Client) buildFullURL(version, model string) string {
-	return fmt.Sprintf("%s%s?GroupId=%s", c.config.BaseURL, getURL(version, model), c.config.groupId)
+	return fmt.Sprintf("%s%s?GroupId=%s", c.config.BaseURL, getURL(version, model), c.config.groupID)
 }
 
 func (c *Client) fullURL(url string) string {
-	return fmt.Sprintf("%s%s?GroupId=%s", c.config.BaseURL, url, c.config.groupId)
+	return fmt.Sprintf("%s%s?GroupId=%s", c.config.BaseURL, url, c.config.groupID)
 }
 
 func (c *Client) send(req *http.Request, v any, files ...*os.File) error {

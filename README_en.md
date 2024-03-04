@@ -254,7 +254,7 @@ func main() {
 	client := minimax.NewClient("your token", "your group id")
 	resp, err := client.CreateTextToSpeech(context.Background(), &minimax.CreateT2ARequest{
 		Text:    "hello",
-		VoiceId: "female-yujie",
+		VoiceID: "female-yujie",
 		Path:    "./",
 		Name:    "hello.mp3",
 	})
@@ -283,7 +283,7 @@ func main() {
 	client := minimax.NewClient("your token", "your group id")
 	resp, err := client.CreateTextToSpeechPro(context.Background(), &minimax.CreateT2ARequest{
 		Text:    "hello",
-		VoiceId: "female-yujie",
+		VoiceID: "female-yujie",
 	})
 	if err != nil {
 		panic(err)

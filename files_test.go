@@ -7,8 +7,9 @@ import (
 	"testing"
 )
 
-func TestCreateFile(t *testing.T) {
-	res, err := client.CreateFile(context.Background(), &minimax.FileRequest{
+// go test -v -test.run=TestUploadFile ./
+func TestUploadFile(t *testing.T) {
+	res, err := client.UploadFile(context.Background(), &minimax.FileRequest{
 		Purpose:  minimax.Retrieval,
 		FilePath: "./testdata/wonderland.txt",
 	})

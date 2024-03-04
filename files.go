@@ -56,7 +56,7 @@ type File struct {
 	Purpose   string `json:"purpose"`
 }
 
-func (c *Client) CreateFile(ctx context.Context, request *FileRequest) (*FileResponse, error) {
+func (c *Client) UploadFile(ctx context.Context, request *FileRequest) (*FileResponse, error) {
 	var buf bytes.Buffer
 	builder := c.formDataBuilder(&buf)
 

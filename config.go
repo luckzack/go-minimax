@@ -9,17 +9,17 @@ const (
 
 type Config struct {
 	apiToken string
-	groupId  string
+	groupID  string
 
 	BaseURL           string
 	HTTPClient        *http.Client
 	EmptyMessageLimit uint
 }
 
-func DefaultConfig(apiToken, groupId string) *Config {
+func DefaultConfig(apiToken, groupID string) *Config {
 	return &Config{
 		apiToken:          apiToken,
-		groupId:           groupId,
+		groupID:           groupID,
 		BaseURL:           APIV1,
 		HTTPClient:        &http.Client{},
 		EmptyMessageLimit: defaultEmptyMessageLimit,
