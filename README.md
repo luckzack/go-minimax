@@ -8,9 +8,11 @@
   </a>
   <br>
   <br>
-  <b>中文</b> | <a href="./README_en.md">English</a>
+  👉 <b>中文</b> | <a href="./README_en.md">English</a>
   
 </p>
+
+---
 
 🚀 [MiniMax](https://api.minimax.chat) API SDK for Go.
 
