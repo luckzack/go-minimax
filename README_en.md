@@ -1,20 +1,19 @@
-# Go MiniMax
-[![Go Reference](https://pkg.go.dev/badge/github.com/luckpunk/go-minimax.svg)](https://pkg.go.dev/github.com/luckpunk/go-minimax)
-[![Go Report Card](https://goreportcard.com/badge/github.com/luckpunk/go-minimax)](https://goreportcard.com/report/github.com/luckpunk/go-minimax)
-
+<p align="center"><a href="https://github.com/luckpunk/go-minimax"><img src="https://filecdn.minimax.chat/public/Group.png" alt="go-minimax" width="300" /></a></p>
+<p align="center"><b>🚀 MiniMax API SDK for Go.</b></p>
 <p align="center">
-  <a>
-    <img alt="Fiber" height="125" src="https://filecdn.minimax.chat/public/Group.png">
-  </a>
+  <a href="https://pkg.go.dev/github.com/luckpunk/go-minimax" target="_blank"><img src="https://pkg.go.dev/badge/github.com/luckpunk/go-minimax.svg" alt="Go Reference"></a>
+  <a href="https://goreportcard.com/report/github.com/luckpunk/go-minimax" target="_blank"><img src="https://goreportcard.com/badge/github.com/luckpunk/go-minimax" alt="Go Report"></a>
   <br>
+  <a href="https://opensource.org/license/mit" target="_blank"><img src="https://shields.io/github/license/luckpunk/go-minimax?color=%231890FF" alt="License"></a>
+  <a href="https://app.codacy.com/gh/luckpunk/go-minimax" target="_blank"><img src="https://app.codacy.com/project/badge/Grade/da67574fd82b473992781d1386b937ef" alt="Codacy"></a>
+  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fluckpunk%2Fgo-minimax?ref=badge_shield&issueType=license" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fluckpunk%2Fgo-minimax.svg?type=shield&issueType=license"/></a>
+  <a href="https://github.com/luckpunk/go-minimax/releases" target="_blank"><img src="https://img.shields.io/github/v/release/luckpunk/go-minimax" alt="GitHub release"></a>
+  <a href="https://github.com/luckpunk/go-minimax" target="_blank"><img src="https://img.shields.io/github/stars/luckpunk/go-minimax?color=%231890FF&style=flat-square" alt="Stars"></a> 
   <br>
-  👉 <a href="./README.md">中文</a> | <b>English</b> 
-
+   👉 [ <a href="README.md">中文</a> ] | [ <b>English</b> ]
 </p>
 
 ---
-
-🚀 The [MiniMax](https://api.minimax.chat) API SDK for Go.
 
 ## Installation
 ```bash
@@ -295,3 +294,7 @@ func main() {
 }
 
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fluckpunk%2Fgo-minimax.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fluckpunk%2Fgo-minimax?ref=badge_large)
