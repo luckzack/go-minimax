@@ -1,6 +1,7 @@
 # Go MiniMax
 [![Go Reference](https://pkg.go.dev/badge/github.com/luckpunk/go-minimax.svg)](https://pkg.go.dev/github.com/luckpunk/go-minimax)
 [![Go Report Card](https://goreportcard.com/badge/github.com/luckpunk/go-minimax)](https://goreportcard.com/report/github.com/luckpunk/go-minimax)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fluckpunk%2Fgo-minimax.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fluckpunk%2Fgo-minimax?ref=badge_shield)
 
 <p align="center">
   <a>
@@ -295,3 +296,7 @@ func main() {
 }
 
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fluckpunk%2Fgo-minimax.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fluckpunk%2Fgo-minimax?ref=badge_large)
