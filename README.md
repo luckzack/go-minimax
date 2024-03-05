@@ -1,4 +1,5 @@
 # Go MiniMax
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e030b004abda4d01b6fbce11c3bb03d0)](https://app.codacy.com/gh/luckpunk/go-minimax?utm_source=github.com&utm_medium=referral&utm_content=luckpunk/go-minimax&utm_campaign=Badge_Grade)
 [![Go Reference](https://pkg.go.dev/badge/github.com/luckpunk/go-minimax.svg)](https://pkg.go.dev/github.com/luckpunk/go-minimax)
 [![Go Report Card](https://goreportcard.com/badge/github.com/luckpunk/go-minimax)](https://goreportcard.com/report/github.com/luckpunk/go-minimax)
 
